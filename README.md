@@ -1,21 +1,23 @@
-# Counter App
+# Git and Modern js (Es6+)
 
 ## Description
-A simple JavaScript counter application that allows users to increase, decrease, and reset a number.
+This repo includes the exercise done for week 1 deliverables. 
+## Exercises
 
-## Features
-- Increment counter
-- Decrement counter
-- Reset counter to zero
+### 1. Counter
+- Increases, decreases, and resets a number
+- Built with **HTML, CSS, and JavaScript**
 
-## Technologies Used
-- HTML
-- CSS
-- JavaScript (ES6)
-- DOM Manipulation
+### 2. Todo DOM
+- Add tasks to a dynamic list
+- Uses **DOM manipulation** and event handling
+- Includes basic styling
 
-## How It Works
-The application uses JavaScript event listeners to update the counter value when buttons are clicked.
+### 3. Array Methods
+- Demonstrates common ES6 array methods:
+  - `map()`
+  - `filter()`
+  - `reduce()`
+  - `forEach()`
+- Shows how to transform, filter, and aggregate arrays
 
-## Learning Objective
-Practice DOM manipulation and event handling using modern JavaScript.
