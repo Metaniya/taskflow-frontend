@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f9f9f9;
+}
+.todo-container {
+    background-color: white;
+    padding: 25px 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+.h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+.input-group {
+    display: flex;
+    gap: 10px;
+}
+.input-group input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    outline: none;
+    transition: border-color 0.2s;
+}
+.input-group input:focus {
+    border-color: #ff4b5c;
+
+}
+.input-group button {
+    padding: 10px 15px;
+    background-color: #ff4b5c;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.input-group button:hover {
+    background-color: #e0434f;
+}
+ul {
+    list-style: none;
+    margin-top: 20px;
+}
+li {
+    background-color: #f1f1f1;
+    padding: 12px, 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.2s;
+
+}
+li button {
+    background-color: transparent;
+    border: none;
+    color: #ff4b5c;
+    font-size: 16px;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+li button:hover {
+    color: #ff2e3a;
+}
