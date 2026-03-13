@@ -10,7 +10,7 @@ const input = document.getElementById('todo-input');
         const li = document.createElement('li');
         li.textContent = taskText;
 
-        // Complete task on click
+        
         li.addEventListener('click', () => {
             li.classList.toggle('completed');
         });
